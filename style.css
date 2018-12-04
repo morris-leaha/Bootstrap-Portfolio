@@ -86,7 +86,7 @@ a.nav-link:active {
     border: 1px #dddddd solid;
 }
 
-h2 {
+.main-section h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
     margin: 30px;
@@ -95,13 +95,13 @@ h2 {
     font-weight: bold;
 }
 
-img {
-    margin: 0 30px;
+.aboutme {
+    margin: 30px;
+    line-height: 2rem;
 }
 
-.col > p {
-    margin: 30px;
-    opacity: 0.9;
+.aboutme img {
+    margin: 10px 30px 0 0;
 }
 
 .footer {
@@ -114,15 +114,15 @@ img {
     color: #ffffff;
 }
 
-.footer > .container {
+.footer div {
     padding-right: 15px;
     padding-left: 15px;
     text-align: center;
     height: 100%;
-}
-
-.container > p {
-    margin: 0;
     font-size: smaller; 
     opacity: 0.75;
+}
+
+.copyright-logo p {
+    margin: 0;
 }
