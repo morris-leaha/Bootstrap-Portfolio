@@ -82,6 +82,7 @@ a.nav-link:active {
 }
 
 .main-section {
+    position: relative;
     background-color: #ffffff;
     border: 1px #dddddd solid;
 }
@@ -114,6 +115,10 @@ a.nav-link:active {
     color: #ffffff;
 }
 
+.sticky-footer {
+    bottom: 0;
+}
+
 .footer div {
     padding-right: 15px;
     padding-left: 15px;
@@ -125,4 +130,20 @@ a.nav-link:active {
 
 .copyright-logo p {
     margin: 0;
+}
+
+/* contact */
+
+.main-section form {
+    margin: 30px;
+}
+
+input[type=text], input[type=email], textarea.form-control {
+    border-radius: 0;
+    border-color: 1px solid #dddddd;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
