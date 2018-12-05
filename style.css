@@ -96,6 +96,10 @@ a.nav-link:active {
     font-weight: bold;
 }
 
+nav > div {
+    height: 78px;
+}
+
 .main-content {
     margin: 30px;
     line-height: 2rem;
