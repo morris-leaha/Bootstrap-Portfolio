@@ -1,8 +1,18 @@
+html, body {
+    height: 100%
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     background-image: url("images/rockywall_@2X.png");
     background-size: cover;
+}
+
+.container {
+    flex: 1 0 auto;
 }
 
 header {
@@ -130,8 +140,8 @@ span:active {
     margin-left: 1rem;
 }
 
-.footer {
-    position: absolute;
+footer {
+    flex-shrink: 0;
     width: 100%;
     line-height: 4rem;
     margin-top: 3rem;
@@ -140,20 +150,16 @@ span:active {
     color: #ffffff;
 }
 
-/* .sticky-footer {
-    bottom: 0;
-} */
-
-.footer div {
+.footer span {
     text-align: center;
     height: 100%;
     font-size: 0.8rem; 
     opacity: 0.75;
 }
 
-.copyright-logo p {
+/* .copyright-logo p {
     margin: 0;
-}
+} */
 
 /* portfolio */
 
