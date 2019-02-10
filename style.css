@@ -57,16 +57,16 @@ a.navbar-brand:active {
 .nav-link {
     opacity: 0.8;
     padding: 0 1rem;
-    border-left: 2px #efefef solid;
+    border-right: 2px #efefef solid;
     line-height: 18px;
 }
 
 .nav-link:first-child {
-    border-left: 0 none;
-    padding-left: 0;
+    padding-right: 1rem;
 }
 
 .nav-link:last-child {
+    border-right: none;
     padding-right: 0;
 }
 
@@ -157,22 +157,19 @@ footer {
     opacity: 0.75;
 }
 
-/* .copyright-logo p {
-    margin: 0;
-} */
-
 /* portfolio */
 
 .work {
+    display: inline-block;
     position: relative;
     margin-right: 2rem;
     margin-bottom: 2rem;
 }
 
 .portfolio-content {
-    width: 70%;
-    margin: 0;
+    margin: 0 auto;
 }
+
 
 .work:last-child {
     margin-bottom: 0;
@@ -223,4 +220,47 @@ input[type=text], input[type=email], textarea.form-control {
 input[type=submit] {
     background-color: #4aaaa5;
     color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-links {
+        width: 100%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .nav-link:first-child {
+        padding: 0;
+        border: none;
+    }
+
+    .nav-link:nth-child(2) {
+        padding: 0;
+        border: none;
+    }
+
+    .nav-link:last-child {
+        padding: 0;
+    }
+
+    .work {
+        margin: 1rem auto;
+    }
+    
+    .train-img {
+        margin-top: 1rem;
+    }
+
+    .wine-img {
+        margin-top: 2rem;
+    }
+
+    .fit-img {
+        margin-top: 0;
+    }
 }
