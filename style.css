@@ -222,6 +222,7 @@ input[type=submit] {
     background-color: #4aaaa5;
     color: #ffffff;
     cursor: pointer;
+    padding: 3px 15px;
 }
 
 input[type=submit]:hover {
