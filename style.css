@@ -166,48 +166,36 @@ footer {
     margin-bottom: 2rem;
 }
 
+.work:hover {
+    transform: translateY(7px);
+}
+
+.work img:hover {
+    opacity: 0.75;
+}
+
 .portfolio-content {
     margin: 0 auto;
 }
-
 
 .work:last-child {
     margin-bottom: 0;
 }
 
-a.portfolio-image-labels {
+.portfolio-image-labels {
     position: absolute;
     bottom: 4%;
     width: 100%;
     text-align: center;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background: #4aaaa5;
+    color: #ebebeb;
     font-size: 1rem;
     padding: 10px;
-    text-decoration: none;
 }
 
-a.portfolio-image-labels:link {
+.portfolio-image-labels:hover {
     color: #ebebeb;
-}
-
-a.portfolio-image-labels:visited {
-    color: #ebebeb;
-}
-
-a.portfolio-image-labels:hover {
-    color: #ebebeb;
-    opacity: 0.85;
-}
-
-a.portfolio-image-labels:focus {
-    color: #777777;
-    opacity: 0.85;
-}
-
-a.portfolio-image-labels:active {
-    color: #202428;
-    opacity: 0.85;
 }
 
 /* contact */
@@ -267,7 +255,7 @@ input[type=submit]:active {
         margin-top: 1rem;
     }
 
-    .wine-img {
+    .letter-img {
         margin-top: 2rem;
     }
 
