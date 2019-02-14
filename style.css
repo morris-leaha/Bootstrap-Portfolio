@@ -138,6 +138,16 @@ span:active {
 
 .fa-github-square {
     margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.fa-envelope {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.fa-phone-square {
+    margin-left: 1rem;
 }
 
 footer {
